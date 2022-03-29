@@ -1,34 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap");
 /*https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
 
-header nav {
+/* header nav {
   display: inline-block;
-}
+  color: gray;
+} */
 
-ul {
-  display: inline-block;
-}
-
-#navigationBar {
-  display: inline-block;
-}
-
-.parent {
-  border: 1px solid black;
-  margin: 1rem;
-  padding: 2rem 2rem;
+h1,
+h3,
+h4 {
   text-align: center;
+  font-family: "Roboto Slab";
 }
-.child {
+
+h2 {
+text-align: left;
+
+}
+
+p{
+
+float: left;
+
+}
+
+h5 {
+  color: red;
+}
+
+
+main
+{
+
+
+
+}
+
+
+nav li {
+  font-size: x-small;
+  list-style-type: none;
   display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
+  padding: 0em 1.2em;
+  color: gray;
+  font-weight: bold;
+  position: sticky;
+}
+
+nav {
+  position: center;
+  text-align: center;
+  border-top: 2px solid lightgray;
+  border-bottom: 2px solid lightgrey;
+  top: 0em;
+  background-color: white;
+  position: sticky;
+}
+
+.Section1 {
+  float: left;
+  width: 50%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* latin-ext */
 @font-face {
-  font-family: "Abril Fatface";
+  font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
