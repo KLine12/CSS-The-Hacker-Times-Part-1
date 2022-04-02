@@ -6,12 +6,26 @@
   color: gray;
 } */
 
-h1,
+h1
+{
+
+  font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+
+}
+
 h3,
 h4 {
   text-align: center;
-  font-family: "Roboto Slab";
+  font-family: "abrilfatface";
 }
+
+body {
+  background: #eee;
+  font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+  font-weight: 200;
+}
+
 
 h2 {
 text-align: left;
@@ -29,14 +43,6 @@ h5 {
 }
 
 
-main
-{
-
-
-
-}
-
-
 nav li {
   font-size: x-small;
   list-style-type: none;
@@ -47,15 +53,38 @@ nav li {
   position: sticky;
 }
 
-nav {
-  position: center;
-  text-align: center;
-  border-top: 2px solid lightgray;
-  border-bottom: 2px solid lightgrey;
-  top: 0em;
-  background-color: white;
+nav a{
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  margin: 1em 0;
   position: sticky;
+  top: 0;
+  background: white;
+  font-size: font 16px;
+  color: #777;
+  text-align: center;
+  position: sticky;
+  
 }
+
+navigationBar {
+display: block;
+position: sticky
+}
+
+
+.newspaper-container{
+  width: 700px;
+  margin: 3em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 1px 1px 5px #ddd;
+}
+
+
 
 .Section1 {
   float: left;
